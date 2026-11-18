@@ -1,0 +1,16 @@
+field,typical_unit,why_it_matters,common_trap
+rated output power,W,Continuous power the unit delivers,Often quoted as VA instead of W
+apparent power,VA,Rating at a stated power factor,5000 VA at PF 0.8 is 4000 W
+peak or surge power,W for 1-5 s,Starting motors and compressors,Surge duration differs between brands
+max DC input voltage,V,Upper limit for PV open circuit voltage,Rises in cold weather above the label value
+MPPT voltage range,V,Window where the tracker actually works,Below the start voltage it stops tracking
+battery voltage range,V,Operating window of the battery port,A 48 V system is not a fixed 48 V
+max charge current,A,How fast the battery can be charged,Shared between PV and generator input
+peak efficiency,%,Best-case conversion efficiency,Measured at one load point only
+weighted efficiency,%,Average across the load range,Closer to real-world than peak
+THD,%,Distortion of the AC waveform,Measured at rated load and linear loads
+idle consumption,W,Draw with no load,Adds up to kWh over a day
+operating temperature,degC,Ambient range before derating,Output drops above about 45 degC
+protection rating,IP,Ingress protection for the enclosure,IP65 is not the same as outdoor-rated
+certifications,list,Grid code and safety approvals,Specific certificates cover specific models
+communication,RS485 / WiFi / CAN,Monitoring and grid-code requirements,Some markets require specific protocols
