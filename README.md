@@ -5,7 +5,7 @@ are comparing units from different manufacturers. Same words, different
 numbers, different test conditions — this list flags where the comparison
 usually goes wrong.
 
-CSV: `inverter-datasheet-fields.csv`
+CSV: [inverter-datasheet-fields.csv](inverter-datasheet-fields.csv)
 Sizing calculator: https://inverterworks.com/tools/inverter-size-calculator
 Manufacturer information: https://inverterworks.com/manufacturer
 
